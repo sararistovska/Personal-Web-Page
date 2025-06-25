@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sara Ristovska | Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="logo">Sara Ristovska</div>
+        <nav class="main-nav">
+            <a href="home.html" >home</a>
+            <a href="about.html">about</a>
+            <a href="travels.html">travels</a>
+            <a href="inspirations.html">inspirations</a>
+            <a href="contact.html">contact</a>
+        </nav> </div>
+</header>
+<section id="contact">
+    <h2 class="contact-title">Let’s Connect</h2>
+
+    <div class="contact-container">
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form" id="contactForm">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name">
+
+            <label for="email">Your Email</label>
+            <input type="email" name="_replyto" id="email" required placeholder="Enter your email">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" required placeholder="Write something nice..."></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div class="form-confirmation" id="formPopup">Message sent successfully! ✨</div>
+        </form>
+
+        <div class="contact-info">
+            <p>Feel free to reach out — I’d love to hear from you!</p>
+            <div class="email-copy">
+                <span>Email:</span>
+                <span id="copyEmail">sararistovska2005@gmail.com</span>
+                <div class="copy-popup" id="copyPopup">Copied!</div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/saraaristovska/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/sara.ristovska.5895?locale=sr_RS" target="_blank">Facebook</a>
+                <a href="https://www.linkedin.com/in/sara-ristovska-34861833a/" target="_blank">LinkedIn</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<footer class="site-footer">
+    <div class="footer-content">
+        <p class="footer-name">© 2025 Sara Ristovska</p>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/saraaristovska/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/sara-ristovska-34861833a/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/sararistovska" target="_blank">GitHub</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
